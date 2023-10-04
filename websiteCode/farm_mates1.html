@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>farm mates</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="farm_mates1.css">
+    </head>                                                                                                                                                                                                                                                                                                                 
+    <body>
+        <script src="farm_mates.js"></script>
+        <fieldset class="mandatory_details">
+            <legend>
+                <h3 class="mandatory">Mandatory Details</h3>
+            </legend>
+            <form >
+                <div class="section">
+                  <label>SELECT THE CROOPING SEASON:</label>
+                  <br>
+                  <br>
+                 <input class="section" type="radio" name="crop" required>  KHARIF
+                   <br>
+                   <label>AVAILABLE TYPE OF KHARIF CROP:</label>
+                   <br>
+                   <br>
+                   Crops: <select>
+                     <option>Cotton</option>
+                     <option>Maize</option>
+                     <option>Peanut</option>
+                     <option>Rice</option>
+                     <option>Soybean</option>
+                     <option>Suggarcane</option>
+                     <option>Sunflower</option>
+                 </select>
+                  <br>
+                  <br>
+                  <input class="section" type="radio" name="crop" required> RABI
+                   <br>
+                   <label>AVAILABLE TYPE OF RABI CROP:</label>
+                   <br>
+                   <br>
+                   Crops: <select>
+                     <option>Barley/oats/wheat</option>
+                     <option>Bean</option>
+                     <option>Cabbage</option>
+                     <option>Onion</option>
+                     <option>Patato</option>
+                     <option>Pea</option>
+                     <option>Pepper</option>
+                 </select>
+                 <br>
+                 <br>
+                   <input class="section" type="radio" name="crop" required> ZAID
+                   <br>
+                   <label>AVAILABLE TYPE OF ZAID CROP:</label>
+                   <br>
+                   <br>
+                   Crops: <select>
+                     <option>Melon</option>
+                     <option>Tamato</option>
+                     </select>
+                     <br>
+                     <br>
+                </div>
+                <br>
+                <br>
+                <div class="section">
+                    <label>ENTER THE TYPE OF CROP SELECTED:</label>
+                    <br>
+                    <br>
+                    <input class="input_m" type="text" required id="t1">
+                  </div>
+                  <br>
+                <div class="section">
+                  <label>AREA OF FARM:(per sq. feet)</label>
+                  <br>
+                  <br>
+                  <input class="input_m" type="text" required>
+                </div>
+                <br>
+                <div class="section">
+                    <label>VALUE OF YOUR MOISTURE SENSOR:</label>
+                    <br>
+                    <br>
+                     RANGES FROM:
+                     <br>
+                    <input class="input_m"  id="t2" type="text" required name="Message">
+                    <br>
+                    <br>
+                    TO:
+                    <br>
+                    <input class="input_m"  id="t3" type="text" required name="Message">
+                  </div>
+                  <br>
+                <input type="button" class="button_2" value="SUBMIT" onclick="sensor()">
+                <br>
+                <br>
+               <a href="farm_mates2.html"> <input type="button" class="button_3" value="NOW START THE PUMP" ></a>
+              </form><br>
+            </div>
+        </fieldset>
+    </body>
+</html>

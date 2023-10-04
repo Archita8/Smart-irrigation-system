@@ -1,0 +1,119 @@
+.top
+{
+height: 100px;
+width:100%;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 60px;
+font-weight:500;
+float: left;
+}
+.box
+{
+    background-color: lightgray;
+    height:400px;
+}
+.button_1
+{
+color:#EF9632;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+font-weight:600;
+height:60px;
+width:300px;
+align-content: center;
+
+}
+.image
+{
+    border-radius:50%;
+    float:left;
+    margin: 50px;
+    padding: 6px;
+}
+.sensor
+{
+    margin: 10px;
+}
+.con
+{
+    width: 600px;
+}
+.ca
+{
+    width:600px;
+}
+#sp
+{
+    width:10px;
+}
+.Contact
+{
+   
+    height:50px;
+    font-family: calibri;color:#EF9632 ;
+    font-size:50px; text-align: center;
+}
+.contact_us
+{
+width:600px;
+height:460px;
+background-color: lightgrey; 
+  
+}
+.about
+{
+   
+    height:50px;
+    font-family: calibri;color:#EF9632 ;
+    font-size:50px; text-align: center;
+}
+.about_us
+{
+width:600px;
+height:460px;
+background-color: lightgrey; 
+ 
+}
+.section
+{
+    margin:20px;
+}
+.box2
+{
+    font-weight: 500;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+}
+.input
+{
+    height:20px;
+    width:300px;
+}
+.input_m
+{
+    height:40px;
+    width:300px;
+}
+.button_2
+{
+color: #EF9632;
+height:40px;
+width:100px;
+}
+.section
+{
+    margin:20px;
+}
+.a
+{
+text-align: center;
+text-decoration: none;
+}
+p{
+margin: 10px;
+font-weight:400;
+font-size: 20px;
+font-family: calibri ;
+}
